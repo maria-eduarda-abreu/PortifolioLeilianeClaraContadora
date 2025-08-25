@@ -1,0 +1,355 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #2E2E2E;
+  color: #D1D0CB;
+  line-height: 1.6;
+}
+
+.main-header {
+  background: #000e29;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-header .logo-container img {
+  max-width: 250px;
+}
+
+.main-nav a {
+  color: #D1D0CB;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.main-nav a:hover {
+  color: #d78a1d;
+}
+
+/* --- Seção Principal (Hero) --- */
+.hero-section {
+  background: #000e29;
+  color: #D1D0CB;
+  padding: 4rem 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.hero-content {
+  max-width: 500px;
+}
+
+.hero-content h1 {
+  color: #d78a1d;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero-content h2 {
+  color: #D1D0CB;
+  font-size: 1.8rem;
+  margin-top: 0;
+}
+
+.hero-content p {
+  font-size: 1.1rem;
+}
+
+.hero-image img {
+  border-radius: 8px;
+  max-width: 350px;
+  height: auto;
+}
+
+.hero-buttons {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #d78a1d;
+  color: #000e29;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #f79c2e;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: #d78a1d;
+  border: 2px solid #d78a1d;
+}
+
+.btn-secondary:hover {
+  background-color: #d78a1d;
+  color: #000e29;
+}
+
+/* --- Fim da Seção Principal (Hero) --- */
+
+/* --- Seção: Sobre Mim --- */
+.about-me-section {
+  background-color: #f0f0f0;
+  color: #2E2E2E;
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.about-me-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-me-container h2 {
+  color: #333;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.about-me-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  text-align: left;
+}
+
+.about-me-info {
+  flex: 1;
+  min-width: 300px;
+}
+
+.about-me-info h3 {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.info-item .icon {
+  font-size: 1.5rem;
+}
+
+.info-item p {
+  margin: 0;
+}
+
+.services-offered-box {
+  flex: 1;
+  min-width: 250px;
+  max-width: 300px;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.services-offered-box p {
+  color: #333;
+  font-weight: bold;
+}
+/* --- Fim da Seção: Sobre Mim --- */
+
+/* --- Seção: Nossos Serviços --- */
+.services-section {
+  background-color: #f0f0f0;
+  color: #2E2E2E;
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.services-section h2 {
+  color: #333;
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+}
+
+.services-subtitle {
+  color: #666;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.services-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  justify-items: center;
+  margin-bottom: 2rem;
+}
+
+.service-card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #d78a1d; /* Para dar um destaque sutil */
+  text-align: left;
+}
+
+.service-icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.service-card h3 {
+  color: #333;
+  margin: 0 0 0.5rem 0;
+}
+
+.service-card p {
+  color: #666;
+}
+
+.specialized-card {
+  background-color: #fff9e6; /* Cor amarela suave */
+  color: #333;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.specialized-card h3 {
+  margin: 0;
+  color: #333;
+}
+
+.experience-badge {
+  color: #d78a1d;
+  font-weight: bold;
+}
+/* --- Fim da Seção: Nossos Serviços --- */
+
+/* --- Nova Seção: Contato e Footer --- */
+.contact-section {
+  background-color: #000e29;
+  color: #D1D0CB;
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.contact-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contact-content h2 {
+  color: #D1D0CB;
+  margin-bottom: 0.5rem;
+}
+
+.contact-subtitle {
+  color: #999;
+  margin-bottom: 2rem;
+}
+
+.contact-cards {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.contact-card {
+  background-color: #1b1b1b;
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  width: 100%;
+  max-width: 250px;
+}
+
+.contact-card h3 {
+  margin: 0;
+  color: #D1D0CB;
+}
+
+.contact-card p {
+  margin: 0.5rem 0 0 0;
+  color: #6E6353;
+}
+
+.contact-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #d78a1d;
+  display: block;
+}
+
+.quote-button {
+  background-color: #d78a1d;
+  color: #000e29;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.quote-button:hover {
+  background-color: #f79c2e;
+}
+
+.quote-button span {
+  display: block;
+  font-size: 0.8rem;
+  font-weight: normal;
+}
+
+.main-footer {
+  background-color: #000e29;
+  color: #D1D0CB;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.main-footer .footer-content img {
+  max-width: 200px;
+  margin-bottom: 1rem;
+}
+
+.main-footer .footer-title {
+  color: #D1D0CB;
+  font-size: 1rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.main-footer .footer-copyright {
+  color: #6E6353;
+  font-size: 0.8rem;
+  margin: 0;
+}
